@@ -1,4 +1,0 @@
-# file: C:\Users\nalyr\OneDrive\Documents\GitHub\calculator\calculator\cli.py
-# hypothesis_version: 6.140.2
-
-[1e-09, '> ', '?', 'Usage: <op> <a> <b>', 'a', 'b', 'calculator', 'exit', 'first operand', 'op', 'quit', 'repl', 'second operand']
