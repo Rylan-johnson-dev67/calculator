@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: calculator
+Version: 0.1.0
+Summary: A tiny calculator package with CLI
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Simple Calculator
+
+A tiny Python calculator package with core operations and a CLI.
+
+Usage:
+
+- As a module:
+
+```py
+from calculator import compute
+print(compute('add', 2, 3))
+```
+
+- From the command line:
+
+```powershell
+python -m calculator.cli add 2 3
+# or
+python cli.py add 2 3
+```
+
+Run tests:
+
+```powershell
+python -m pip install -r requirements-dev.txt
+pytest
+```
+
+Installable package:
+
+```powershell
+# From project root
+python -m pip install -e .
+
+# After installation you get a `calculator` console script:
+calculator add 2 3
+calculator div 5 2
+```
+
+If you prefer `python -m` without installing:
+
+```powershell
+python -m calculator add 2 3
+```

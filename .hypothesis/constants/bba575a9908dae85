@@ -1,0 +1,4 @@
+# file: C:\Users\nalyr\OneDrive\Documents\GitHub\calculator\calculator\core.py
+# hypothesis_version: 6.140.2
+
+['*', '+', '-', '/', 'add', 'div', 'divide', 'division by zero', 'mul', 'multiply', 'sub', 'x']
