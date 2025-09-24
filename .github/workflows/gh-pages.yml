@@ -3,6 +3,8 @@ name: Deploy Pages
 on:
   push:
     branches: [ main, master ]
+  # Allow manual dispatch from Actions UI
+  workflow_dispatch: {}
 
 permissions:
   contents: read

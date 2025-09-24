@@ -72,6 +72,17 @@ https://<OWNER>.github.io/<REPO>/
 ```
 
 Replace `<OWNER>` and `<REPO>` with your GitHub account/org and repository name. Once the workflow runs, visit the URL above and you should see the calculator.
+
+How to publish (explicit)
+------------------------
+
+1. Push your `main` branch to GitHub (you said you've already committed and pushed).
+2. Open the repository on github.com and go to the `Actions` tab. Select the `Deploy Pages` workflow.
+3. You can either wait for the workflow to run after a push or click `Run workflow` (manual dispatch) in the Actions UI to start it now.
+4. After a successful run, go to `Settings` -> `Pages` in the repository to verify the site URL and domain. It should show the `gh-pages` deployment and the public URL.
+5. Visit `https://<OWNER>.github.io/<REPO>/` to see the live site (may take a minute).
+
+If there's a problem, check the workflow run logs in Actions for errors and the Pages settings for the publishing source.
 ```powershell
 # From project root
 python -m pip install -e .
