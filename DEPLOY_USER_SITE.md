@@ -1,6 +1,6 @@
 Deploying web/ to your user GitHub Pages site
 
-This repository contains a GitHub Actions workflow that can push the contents of the `web/` folder to your user site repository `Rylan-johnson-dev67/python-calculator.github.io`.
+This repository contains a GitHub Actions workflow that can push the contents of the `web/` folder to your user site repository `Rylan-johnson-dev67/Rylan-johnson-dev67.github.io`.
 
 What I added
 
@@ -24,15 +24,12 @@ What you must do (one-time setup)
 How to run the deploy workflow
 
 - The workflow is triggered on push to `main` and can also be started manually from the Actions tab using `Run workflow`.
-- After you add the secret, push a small commit (or trigger the workflow manually). The workflow will run and attempt to push `./web` into the `main` branch of `Rylan-johnson-dev67/python-calculator.github.io`.
+- After you add the secret, push a small commit (or trigger the workflow manually). The workflow will run and attempt to push `./web` into the `main` branch of `Rylan-johnson-dev67/Rylan-johnson-dev67.github.io`.
 
 Verifying the site
 
-- After the workflow completes, check the destination repo (https://github.com/Rylan-johnson-dev67/python-calculator.github.io) to confirm files were pushed.
-- Wait a few minutes, then open https://rylan-johnson-dev67.github.io/ or the custom URL below to see the site (case-insensitive):
-
-- https://Rylan-johnson-dev67.github.io/
-- https://python-calculator.github.io/ (if you configure the repo name mapping or a custom domain)
+- After the workflow completes, check the destination repo (https://github.com/Rylan-johnson-dev67/Rylan-johnson-dev67.github.io) to confirm files were pushed.
+- Wait a few minutes, then open https://Rylan-johnson-dev67.github.io/ to see the user site at the canonical URL.
 
 Security notes
 

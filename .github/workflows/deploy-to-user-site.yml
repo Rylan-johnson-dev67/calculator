@@ -20,4 +20,4 @@ jobs:
           personal_token: ${{ secrets.PAGES_REPO_TOKEN }}
           publish_branch: main
           publish_dir: ./web
-          destination_repo: Rylan-johnson-dev67/python-calculator.github.io
+          destination_repo: Rylan-johnson-dev67/Rylan-johnson-dev67.github.io
