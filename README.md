@@ -86,3 +86,14 @@ If you prefer `python -m` without installing:
 ```powershell
 python -m calculator add 2 3
 ```
+
+Docker (serve the web UI)
+------------------------
+
+Build and run a small Docker container that serves the `web/` folder with nginx:
+
+```powershell
+docker build -t calculator-web .
+docker run -p 8080:80 calculator-web
+# then open http://localhost:8080/
+```
